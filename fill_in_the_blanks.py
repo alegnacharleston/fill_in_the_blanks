@@ -14,10 +14,6 @@ correct_responses = ["filler_because_index_starts_at_zero","variable","list","ne
 blanks = ["filler_because_index_starts_at_zero", "___1___", "___2___", "___3___","___4___", "___5___","___6___", "___7___","___8___", "___9___","___10___", "___11___","___12___" ]
 
 
-### cd nanodegree/intro_programming/project_2
-
-
-
 def take_quiz_easy(n):                 ### the coing for level 1 easy begins
     new_paragraph = paragraph_easy     ### identifies what paragraph to use for quiz easy
     while n < 5:                       ### creates loop, so user has to go through questions 1 through 4
